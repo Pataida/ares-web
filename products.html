@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="library/css/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="products">
+        <div class="products-container swiper">
+            <h1>Victron Inverters</h1>
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Inverter Compact"
+                            data-desc="12 / 24 Volt(1200VA - 2000VA)"
+                            data-image="assets/inverters/Inverter Compact 1200VA - 2000VA.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Inverter Compact 1200VA - 2000VA.png" alt="..." class="card-image">
+                            <p class="badge">Inverter Compact</p>
+                            <h2 class="card-title">
+                                12 / 24 Volt(1200VA - 2000VA)
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Inverter"
+                            data-desc="3000VA - 5000VA"
+                            data-image="assets/inverters/Inverter 3000VA - 5000VA.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Inverter 3000VA - 5000VA.png" alt="..." class="card-image">
+                            <p class="badge">Inverter</p>
+                            <h2 class="card-title">
+                                3000VA - 5000VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Inverter Smart"
+                            data-desc="12 / 24 / 48 Volt(1600VA - 5000VA)"
+                            data-image="assets/inverters/Inverter Smart 1600VA - 5000VA.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Inverter Smart 1600VA - 5000VA.png" alt="..." class="card-image">
+                            <p class="badge">Inverter Smart</p>
+                            <h2 class="card-title">
+                                12 / 24 / 48 Volt(1600VA - 5000VA)
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Sun Inverter"
+                            data-desc="12VA/250VA and 24VA/250VA"
+                            data-image="assets/inverters/Sun Inverter.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Sun Inverter.png" alt="..." class="card-image">
+                            <p class="badge"> Sun Inverter</p>
+                            <h2 class="card-title">
+                                12VA/250VA and 24VA/250VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Inverter VE.Direct"
+                            data-desc="250VA, 375VA, 500VA, 800VA, 1200VA"
+                            data-image="assets/inverters/Inverter VE.Direct.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Inverter VE.Direct.png" alt="..." class="card-image">
+                            <p class="badge">Inverter VE.Direct</p>
+                            <h2 class="card-title">
+                                250VA, 375VA, 500VA, 800VA, 1200VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Inverter RS Smart"
+                            data-desc="6000VA"
+                            data-image="assets/inverters/Inverter RS 48V-6000VA Smart.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Inverter RS 48V-6000VA Smart.png" alt="..." class="card-image">
+                            <p class="badge">Inverter RS Smart</p>
+                            <h2 class="card-title">
+                                6000VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Inverter RS Smart Solar"
+                            data-desc="6000VA"
+                            data-image="assets/inverters/Inverter RS Smart Solar.png"
+                            data-price="$100">
+                            <img src="assets/inverters/Inverter RS Smart Solar.png" alt="..." class="card-image">
+                            <p class="badge">Inverter RS Smart Solar</p>
+                            <h2 class="card-title">
+                                6000VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>   
+    <section class="products">
+        <div class="products-container swiper">
+            <h1> MUST Inverters</h1>
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PV1800VHM Series"
+                            data-desc="3-5.5KW"
+                            data-image="assets/inverters/PV18-VHM-02-1.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/PV18-VHM-02-1.jpg" alt="..." class="card-image">
+                            <p class="badge">PV1800VHM Series</p>
+                            <h2 class="card-title">
+                                3-5.5KW
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PV2000 PK Series"
+                            data-desc="1-2KVA"
+                            data-image="assets/inverters/pv2000-pk-1-1.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/pv2000-pk-1-1.jpg" alt="..." class="card-image">
+                            <p class="badge">PV2000 PK Series</p>
+                            <h2 class="card-title">
+                                1-2KVA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PV3000 VHM Series"
+                            data-desc="1-6KW"
+                            data-image="assets/inverters/pv3000-vhm-01-1.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/pv3000-vhm-01-1.jpg" alt="..." class="card-image">
+                            <p class="badge">PV3000 VHM Series</p>
+                            <h2 class="card-title">
+                                1-6KW
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PH1800 PRO Series"
+                            data-desc="8-10KW"
+                            data-image="assets/inverters/PH1800-PRO8-10K-1-1.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/PH1800-PRO8-10K-1-1.jpg" alt="..." class="card-image">
+                            <p class="badge">PH1800 PRO Series</p>
+                            <h2 class="card-title">
+                                8-10KW
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PH1100 PRO Series"
+                            data-desc="3.6-6KW(On/Off Grid Hybrid Solar Inverter)"
+                            data-image="assets/inverters/ph11-eu-001.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/ph11-eu-001.jpg" alt="..." class="card-image">
+                            <p class="badge">PH1100 PRO Series</p>
+                            <h2 class="card-title">
+                                3.6-6KW(On/Off Grid Hybrid Solar Inverter)
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PH1800 PRO Series"
+                            data-desc="8-10KW(On/Off Grid Hybrid Solar Inverter)"
+                            data-image="assets/inverters/PH1800-PRO8-10K-1-1 (1).jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/PH1800-PRO8-10K-1-1 (1).jpg" alt="..." class="card-image">
+                            <p class="badge">PH1800 PRO Series</p>
+                            <h2 class="card-title">
+                                8-10KW(On/Off Grid Hybrid Solar Inverter)
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PH1100 EU Series"
+                            data-desc="AC:380V 5-12KW(On/Off Grid Hybrid Solar Inverter)"
+                            data-image="assets/inverters/ph11-eu-1-1.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/ph11-eu-1-1.jpg" alt="..." class="card-image">
+                            <p class="badge">PH1100 EU Series</p>
+                            <h2 class="card-title">
+                                AC:380V 5-12KW(On/Off Grid Hybrid Solar Inverter)
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="PH3000 Series"
+                            data-desc="10-12KW(On/Off Grid Hybrid Solar Inverter)"
+                            data-image="assets/inverters/ph3000-12k-002-1.jpg"
+                            data-price="$100">
+                            <img src="assets/inverters/ph3000-12k-002-1.jpg" alt="..." class="card-image">
+                            <p class="badge">PH3000 Series</p>
+                            <h2 class="card-title">
+                                10-12KW(On/Off Grid Hybrid Solar Inverter)
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>   
+    <section class="products">
+        <div class="products-container swiper">
+            <h1>Victron Batteries</h1>
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Lithium NG"
+                            data-desc="12 / 24 Volt"
+                            data-image="assets/batteries/Lithium NG Batteries.png"
+                            data-price="$100">
+                            <img src="assets/batteries/Lithium NG Batteries.png" alt="..." class="card-image">
+                            <p class="badge">Lithium NG</p>
+                            <h2 class="card-title">
+                                12 / 24 Volt
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Lithium Smart"
+                            data-desc="3000VA - 5000VA"
+                            data-image="assets/batteries/Lithium Battery Smart.png"
+                            data-price="$100">
+                            <img src="assets/batteries/Lithium Battery Smart.png" alt="..." class="card-image">
+                            <p class="badge">Lithium Smart</p>
+                            <h2 class="card-title">
+                                3000VA - 5000VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Lithium SuperPack"
+                            data-desc="12 / 24 / 48 Volt"
+                            data-image="assets/batteries/Lithium SuperPack.png"
+                            data-price="$100">
+                            <img src="assets/batteries/Lithium SuperPack.png" alt="..." class="card-image">
+                            <p class="badge">Lithium SuperPack</p>
+                            <h2 class="card-title">
+                                12 / 24 / 48 Volt
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="Gel & AGM"
+                            data-desc="12VA/250VA and 24VA/250VA"
+                            data-image="assets/batteries/Gel and AGM Batteries.png"
+                            data-price="$100">
+                            <img src="assets/batteries/Gel and AGM Batteries.png" alt="..." class="card-image">
+                            <p class="badge">Gel & AGM</p>
+                            <h2 class="card-title">
+                                12VA/250VA and 24VA/250VA
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="products-container swiper">
+            <h1>MUST Batteries</h1>
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="LP1600 Series"
+                            data-desc="25.6V-100/200Ah"
+                            data-image="assets/batteries/LP1600-002.jpg"
+                            data-price="$100">
+                            <img src="assets/batteries/LP1600-002.jpg" alt="..." class="card-image">
+                            <p class="badge">LP1600 Series</p>
+                            <h2 class="card-title">
+                                25.6V-100/200Ah
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="LP1900 Series"
+                            data-desc="51.2V-300Ah"
+                            data-image="assets/batteries/lp19-1-1.jpg"
+                            data-price="$100">
+                            <img src="assets/batteries/lp19-1-1.jpg" alt="..." class="card-image">
+                            <p class="badge">LP1900 Series</p>
+                            <h2 class="card-title">
+                                51.2V-300Ah
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="LP2000 Series"
+                            data-desc="25.6V-200/250Ah & 51.2V"
+                            data-image="assets/batteries/lp20-5.28-2.jpg"
+                            data-price="$100">
+                            <img src="assets/batteries/lp20-5.28-2.jpg" alt="..." class="card-image">
+                            <p class="badge">LP2000 Series</p>
+                            <h2 class="card-title">
+                                25.6V-200/250Ah & 51.2V
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="LP2100 Series"
+                            data-desc="51.2V-280/300Ah"
+                            data-image="assets/batteries/lp21-000-1.jpg"
+                            data-price="$100">
+                            <img src="assets/batteries/lp21-000-1.jpg" alt="..." class="card-image">
+                            <p class="badge">LP2100 Series</p>
+                            <h2 class="card-title">
+                                51.2V-280/300Ah
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="LP1500 Series"
+                            data-desc="12.8V-50/100/200Ah & 25.6V-100/120/200Ah"
+                            data-image="assets/batteries/lp15-5.28-1.jpg"
+                            data-price="$100">
+                            <img src="assets/batteries/lp15-5.28-1.jpg" alt="..." class="card-image">
+                            <p class="badge">LP1500 Series</p>
+                            <h2 class="card-title">
+                                12.8V-50/100/200Ah & 25.6V-100/120/200Ah
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                            data-title="LP1600 Series"
+                            data-desc="5.6V/51.2-100/200Ah"
+                            data-image="assets/batteries/LP1600-006.jpg"
+                            data-price="$100">
+                            <img src="assets/batteries/LP1600-006.jpg" alt="..." class="card-image">
+                            <p class="badge">LP1600 Series</p>
+                            <h2 class="card-title">
+                                25.6V/51.2-100/200Ah
+                            </h2>
+                            <button class="card-button material-symbols-outlined">
+                                arrow_forward
+                            </button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalId"
+                           data-title="LP1500 Series" 
+                           data-desc="12.8V-50/100/200Ah & 25.6V-100/120/200Ah" 
+                           data-image="assets/batteries/lp15-5.28-1.jpg" 
+                           data-price="$100">
+                            <img src="assets/batteries/lp15-5.28-1.jpg" alt="..." class="card-image">
+                            <p class="badge">LP1500 Series</p>
+                            <h2 class="card-title">12.8V-50/100/200Ah & 25.6V-100/120/200Ah</h2>
+                            <button class="card-button material-symbols-outlined">arrow_forward</button>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <!-- Product Modal -->
+        <div class="modal fade" id="modalId">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="transform: scale(1.4);">
+                <div class="modal-header pb-2">
+                <h1 class="font-weight-light ml-4">Description</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <div class="row mt-2 p-3">
+                    <div class="col-md-6">
+                    <img src="" class="product_image rounded" alt="Product Image" />
+                    </div>
+                    <div class="col-md-6">
+                    <h2 class="product_name"></h2>
+                    <p class="product_desc">Some random nonsense because I don't know what to write.</p>
+                    <p>Review : &nbsp;&nbsp;&nbsp;
+                        <i class="fa fa-star text-warning ml-2"></i>
+                        <i class="fa fa-star text-warning ml-2"></i>
+                        <i class="fa fa-star text-warning ml-2"></i>
+                        <i class="fa fa-star text-warning ml-2"></i>
+                        <i class="fa fa-star ml-2"></i>
+                    </p>
+                    <h4 class="product_price"></h4>
+                    <button id="addToCartBtn" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section> 
+
+    <footer class="foooter">
+        <div class="footer-container">
+          <div class="footer-row">
+            <div class="foooter-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="foooter-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="foooter-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">panels</a></li>
+                <li><a href="#">batteries</a></li>
+                <li><a href="#">generators</a></li>
+                <li><a href="#">fences</a></li>
+              </ul>
+            </div>
+            <div class="foooter-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><p>link</p><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><p>link</p><i class="fab fa-twitter"></i></a>
+                <a href="#"><p>link</p><i class="fab fa-instagram"></i></a>
+                <a href="#"><p>link</p><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <div class="cart-button">
+        <button id="btnOpenCart" data-bs-toggle="modal" data-bs-target="#cartModal">
+          <i class="fa-solid fa-cart-shopping fa-fade"></i>
+          <!-- Badge for Counter -->
+          <span id="cartCount" class="badge">0</span>
+        </button>
+      </div>
+    
+    
+
+    <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Cart</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Product List -->
+              <ul id="cart-items" class="list-unstyled">
+                <!-- Dynamic product items will be added here -->
+              </ul>
+              <!-- Total Price -->
+              <h5>Total: $<span id="totalPrice">0</span></h5>
+            </div>
+            <div class="modal-footer">
+              <!-- Delete Selected Button -->
+              <button id="deleteSelectedBtn" class="btn btn-secondary" disabled>Delete Selected</button>
+              <!-- Checkout Button -->
+               <button type="button" class="btn btn-primary">Request Quotation</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+    
+
+    <!-- JavaScript -->
+    <script>
+        let cart = [];
+        let totalPrice = 0;
+    
+        // Function to update total price
+        function updateTotalPrice() {
+        const totalElement = document.getElementById('totalPrice');
+        totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+        totalElement.textContent = totalPrice.toFixed(2);
+        }
+    
+        // Function to update cart count
+        function updateCartCount() {
+        const cartCountElement = document.getElementById('cartCount');
+        const itemCount = cart.length;
+        cartCountElement.textContent = itemCount;
+        }
+    
+        // Function to add product to cart
+        function addToCart(product) {
+        cart.push({
+            ...product,
+            quantity: 1,
+            selected: false,
+        });
+        renderCartItems();
+        updateTotalPrice();
+        updateCartCount();
+        }
+    
+        // Function to render cart items
+        function renderCartItems() {
+        const cartItemsElement = document.getElementById('cart-items');
+        cartItemsElement.innerHTML = '';
+    
+        cart.forEach((item, index) => {
+            cartItemsElement.innerHTML += `
+            <li class="cart-item">
+                <div class="cart-item-details">
+                <input type="checkbox" class="cart-checkbox" data-index="${index}">
+                <img src="${item.image}" alt="${item.name}">
+                <div class="item-name">${item.name}</div>
+                </div>
+                <div class="quantity-controls">
+                <button class="quantity-decrease" data-index="${index}">-</button>
+                <span>${item.quantity}</span>
+                <button class="quantity-increase" data-index="${index}">+</button>
+                </div>
+                <div class="item-price">$${(item.price * item.quantity).toFixed(2)}</div>
+            </li>
+            `;
+        });
+    
+        addEventListenersToButtons();
+        checkSelectedItems();
+        }
+    
+        // Add event listeners for the quantity buttons and checkboxes
+        function addEventListenersToButtons() {
+        document.querySelectorAll('.quantity-increase').forEach(button => {
+            button.addEventListener('click', function () {
+            const index = this.getAttribute('data-index');
+            cart[index].quantity += 1;
+            renderCartItems();
+            updateTotalPrice();
+            });
+        });
+    
+        document.querySelectorAll('.quantity-decrease').forEach(button => {
+            button.addEventListener('click', function () {
+            const index = this.getAttribute('data-index');
+            if (cart[index].quantity > 1) {
+                cart[index].quantity -= 1;
+            }
+            renderCartItems();
+            updateTotalPrice();
+            });
+        });
+    
+        document.querySelectorAll('.cart-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+            const index = this.getAttribute('data-index');
+            cart[index].selected = this.checked;
+            checkSelectedItems();
+            });
+        });
+        }
+    
+        // Function to check if any items are selected for deletion
+        function checkSelectedItems() {
+        const deleteButton = document.getElementById('deleteSelectedBtn');
+        const hasSelectedItems = cart.some(item => item.selected);
+    
+        if (hasSelectedItems) {
+            deleteButton.classList.add('enabled');
+            deleteButton.classList.remove('disabled');
+            deleteButton.disabled = false;
+        } else {
+            deleteButton.classList.remove('enabled');
+            deleteButton.classList.add('disabled');
+            deleteButton.disabled = true;
+        }
+        }
+    
+        // Delete selected items from cart
+        document.getElementById('deleteSelectedBtn').addEventListener('click', function () {
+        cart = cart.filter(item => !item.selected);
+        renderCartItems();
+        updateTotalPrice();
+        updateCartCount();
+        });
+    
+        // Add product from modal to cart when "Add to Cart" button is clicked
+        document.getElementById('addToCartBtn').addEventListener('click', function () {
+        const productImage = document.querySelector('.product_image').src;
+        const productName = document.querySelector('.product_name').textContent;
+        const productPriceText = document.querySelector('.product_price').textContent;
+        const productPrice = parseFloat(productPriceText.replace('$', ''));
+    
+        const product = {
+            image: productImage,
+            name: productName,
+            price: productPrice
+        };
+    
+        addToCart(product);
+    
+        const modal = bootstrap.Modal.getInstance(document.getElementById('modalId'));
+        modal.hide();
+        });
+    </script>
+  
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var modal = document.getElementById('modalId');
+            var modalTitle = modal.querySelector('.product_name');
+            var modalDesc = modal.querySelector('.product_desc');
+            var modalImage = modal.querySelector('.modal-body img');
+            var modalPrice = modal.querySelector('.product_price');
+            
+            document.querySelectorAll('.card-link').forEach(function(card) {
+                card.addEventListener('click', function() {
+                    var title = this.getAttribute('data-title');
+                    var desc = this.getAttribute('data-desc');
+                    var image = this.getAttribute('data-image');
+                    var price = this.getAttribute('data-price');
+                    
+                    modalTitle.textContent = title;
+                    modalDesc.textContent = desc;
+                    modalImage.src = image;
+                    modalPrice.textContent = price;
+                });
+            });
+        });
+    </script>
+        
+    
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector('.logos').appendChild(copy);
+    </script>
+      <script src="library/js/swiper-bundle.min.js"></script>
+      <script src="library/js/jquery-3.7.1.min.js"></script>
+      <script src="library/js/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+      <script src="library/js/bootstrap.min.js"></script>
+
+      <script src="script.js"></script>
+</body>
+</html>
